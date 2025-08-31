@@ -82,6 +82,10 @@ Desde la **raíz** del repositorio:
 ```bash
 docker compose up -d --build
 ```
+> Ó
+```bash
+docker compose --env-file ./.env up -d --build
+```
 
 Esto hará:
 - Construir la imagen de la API (`api`).
