@@ -1,0 +1,63 @@
+# ----------------------------------------
+# .NET / Visual Studio
+# ----------------------------------------
+.vs/
+[Bb]in/
+[Oo]bj/
+out/
+[Bb]uild/
+[Bb]uilds/
+*.log
+*.pdb
+*.mdb
+*.dbmdl
+*.bak
+*.Backup
+*.mdf
+*.ldf
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ----------------------------------------
+# Dependencias
+# ----------------------------------------
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+*.deps.json
+# *.dll
+# *.exe
+*.cache
+
+# ----------------------------------------
+# Configuración de entorno
+# ----------------------------------------
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.Local.json
+
+# Variables de entorno y secretos
+.env
+secrets/
+**/secrets/
+**/firebase_credentials.json
+
+# ----------------------------------------
+# Docker
+# ----------------------------------------
+*.pid
+*.seed
+*.pid.lock
+data/
+logs/
+docker-compose.override.yml
+
+# ----------------------------------------
+# Otros
+# ----------------------------------------
+Thumbs.db
+.DS_Store
+publish/

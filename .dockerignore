@@ -1,0 +1,31 @@
+# Git / VS
+.git
+.vs
+.gitignore
+
+# Build outputs
+**/bin
+**/obj
+**/out
+**/publish
+[Bb]uild/
+[Bb]uilds/
+
+# Logs / temp
+*.log
+*.pid
+*.pid.lock
+*.seed
+Thumbs.db
+.DS_Store
+
+# Entorno y secretos
+.env
+secrets/
+**/secrets/
+**/firebase_credentials.json
+
+# Archivos que no afectan al build
+docker-compose.yml
+docker-compose.*.yml
+README.md
